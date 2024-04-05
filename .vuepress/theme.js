@@ -12,7 +12,7 @@ export default hopeTheme({
   },
   // 编辑 贡献者 更新时间
   lastUpdated: "最新一次更新",
-  contributors: true,
+  contributors: false,
   editLink: true,
   // icon
   iconAssets: "iconfont",
@@ -45,7 +45,7 @@ export default hopeTheme({
   // 侧边栏
   sidebar: Sidebar, //侧边栏配置
   //编辑页面
-  docsRepo: "https://github.com/slsj0813/slsj_blog", //编辑页面
+  docsRepo: "https://github.com/slsj0813/blog", //编辑页面
   backToTop: true, //到顶部 默认情况下将在下滑 300px 后显示或者是设置为一个数字以更改默认的触发距离
 
   blog: {
